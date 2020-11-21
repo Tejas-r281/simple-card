@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    background-color: rgb(234, 239, 250);
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: 	rgb(0, 115, 153);
+    font-size: 20px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+.button:hover{
+    outline: none;
+}
+.divhalf1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: 	rgb(38, 153, 0);
+}
+.divhalf2{
+    background-color: 	rgb(115, 153, 0);
+}
+.pre
+{
+    font-size: 15px;
+    text-align: start;
+    padding-bottom: 20px;
+}
+.dollar{
+    font-size: 50px;
+    color: white;
+}
+.divhalf1>center>h4{
+    font-weight: 500;
+    color: white;
+}
+.divhalf1>center>h6{
+    color: thistle;
+    font-weight: 200;
+}
+.content>h4{
+    color: white;
+    text-align: start;
+    margin: 20px;
+}
+.internal
+{
+    display: flex;
+    flex-direction: column;
+}
+.topcontent{
+    display: flex;
+    flex-direction: column;
+    background-color: thistle;
+    padding: 40px;
+}
+.color{
+    color: yellowgreen;
+    font-weight: 700;
+    font-size: 20px;
+}
+.topcontent>p{
+    color:blue;
+    font-size:20px;
+    padding:20px;
+}
+.color1{
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    max-width: 700px;
+}
